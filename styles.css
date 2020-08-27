@@ -1,0 +1,82 @@
+img {
+max-width: 50%;
+
+}
+
+
+
+
+body   {
+text-align:center;
+margin: 0;
+}
+
+
+
+header {
+padding-top: 10px;
+padding-bottom: 10px;
+height: 400px;
+background:#F8F8F8 url('../images/responsive-layout-profile.png') no-repeat;
+background-position: 95% 40%;
+}
+
+.name  {
+float: left;
+padding-top: -5px;
+}
+
+.intro {
+floleft;
+
+}
+
+h1 {
+font-size: 40px;
+color: black;
+}
+
+p {
+font-size: 20px;
+color: black;
+background-color: white;
+}
+
+h2 {
+font-size: 30px;
+color: #000000;
+
+}
+
+/*Floated Columns--------------------- */
+
+
+
+
+
+
+
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
+font-size: 30px;
+color: #000000;
+text-decoration: none;
+}
+
+
+
+
+.main-nav  li{
+float: right;
+font: serif;
+}
+
+#main-footer  {
+background: #F8F8F8;
+padding-top: 60px;
+border-bottom: 10px  blue;
+}
