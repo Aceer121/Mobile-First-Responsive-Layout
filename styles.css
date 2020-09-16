@@ -1,52 +1,46 @@
 img {
-max-width: 50%;
+max-width: 30%;
 
 }
 
+.images  {
+display: inline;
+margin:0;
+padding: 10px;
+}
 
+#portfolio {
+display: block;
+margin: 0px;
+position: relative;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+}
+
+.bio  {
+max-width: 50%;
+}
 
 
 body   {
-text-align:center;
-margin: 0;
+  text-align:center;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+  line-height: 1.5;
 }
 
 
 
-header {
-padding-top: 10px;
-padding-bottom: 10px;
-height: 400px;
-background:#F8F8F8 url('../images/responsive-layout-profile.png') no-repeat;
-background-position: 95% 40%;
-}
-
-.name  {
-float: left;
-padding-top: -5px;
-}
-
-.intro {
-floleft;
+.intro,.name, .nav,
+.main-nav li {
+display:inline-block;
+padding: 10px 25px;
+font-family: 'Roboto',sans-serif;
 
 }
 
-h1 {
-font-size: 40px;
-color: black;
-}
-
-p {
-font-size: 20px;
-color: black;
-background-color: white;
-}
-
-h2 {
-font-size: 30px;
-color: #000000;
-
-}
 
 /*Floated Columns--------------------- */
 
@@ -54,7 +48,92 @@ color: #000000;
 
 
 
+.profile  {
+float: right;
+max-width: 40%;
+}
 
+
+
+
+.name  {
+width:240px;
+float: left;
+margin-top: 5px;
+margin-right: 25px;
+margin-bottom: 25px;
+}
+
+.nav {
+float:right;
+
+}
+
+
+
+
+p {
+font-size: 20px;
+color: black;
+
+}
+
+h2 {
+
+font-size: 30px;
+color: #000000;
+padding-top: 150px;
+margin: 10%;
+}
+
+
+
+
+.container {
+background-color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.Marketing {
+position: left;
+}
+
+.Market-img {
+position: relative;
+right: 33%;
+}
+
+.Market-P {
+clear: left;
+max-width: 32%;
+
+}
+
+
+
+h4 {
+position:absolute;
+right: 35%;
+top: 155%;
+max-width: 30%;
+
+}
+
+
+.Search-P  {
+max-width: 30%;
+position: absolute;
+right: 29%;
+top: 173%;
+}
+
+
+h3 {
+clear: left;
+max-width: 30%;
+padding: 20px 15px;
+}
 
 h3,
 h4,
@@ -70,13 +149,43 @@ text-decoration: none;
 
 
 
-.main-nav  li{
-float: right;
-font: serif;
-}
 
 #main-footer  {
-background: #F8F8F8;
-padding-top: 60px;
-border-bottom: 10px  blue;
+border-top: 1px solid grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* =================================
+  Media Quieries
+==================================== */
+@media (min-width:769px)  {
+
+.main-header  {
+position: left;
+
+}
+
+
+.container  {
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+
+  }
 }
