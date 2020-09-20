@@ -1,15 +1,13 @@
-img {
-max-width: 30%;
 
-}
 
 .images  {
 display: inline;
 margin:0;
 padding: 10px;
+max-width: 40%;
 }
 
-#portfolio {
+.portfolio {
 display: block;
 margin: 0px;
 position: relative;
@@ -33,13 +31,18 @@ body   {
 
 
 
-.intro,.name, .nav,
-.main-nav li {
-display:inline-block;
-padding: 10px 25px;
-font-family: 'Roboto',sans-serif;
 
+
+
+
+
+
+
+*  {
+box-sizing: border-box;
 }
+
+
 
 
 /*Floated Columns--------------------- */
@@ -57,7 +60,8 @@ max-width: 40%;
 
 
 .name  {
-width:240px;
+
+max-width: 20%;
 float: left;
 margin-top: 5px;
 margin-right: 25px;
@@ -78,69 +82,31 @@ color: black;
 
 }
 
-h2 {
 
-font-size: 30px;
-color: #000000;
-padding-top: 150px;
-margin: 10%;
-}
 
 
 
 
 .container {
-background-color: white;
-padding-left: 20px;
-padding-right: 20px;
-}
-
-.Marketing {
-position: left;
-}
-
-.Market-img {
-position: relative;
-right: 33%;
-}
-
-.Market-P {
-clear: left;
-max-width: 32%;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
 
 
-h4 {
-position:absolute;
-right: 35%;
-top: 155%;
-max-width: 30%;
-
-}
 
 
-.Search-P  {
-max-width: 30%;
-position: absolute;
-right: 29%;
-top: 173%;
-}
 
 
-h3 {
-clear: left;
-max-width: 30%;
-padding: 20px 15px;
-}
 
-h3,
-h4,
-h5,
-h6,
-h7,
-h8 {
+
+
+
+
+
+
+h1 {
 font-size: 30px;
 color: #000000;
 text-decoration: none;
@@ -167,25 +133,60 @@ border-top: 1px solid grey;
 /* =================================
   Media Quieries
 ==================================== */
-@media (min-width:769px)  {
+@media (min-width:768px)  {
 
-.main-header  {
-position: left;
 
 }
 
 
-.container  {
-width: 90%;
-max-width: 1000px;
-margin: 0 auto;
-}
+@media (min-width:1024px)    {
 
 
-.clearfix::after {
-  content:"";
-  display: table;
-  clear: both;
+  .main-header  {
+  position: left;
 
   }
+
+  .intro, .nav,
+  .main-nav li {
+  display:inline-block;
+  padding: 10px 25px;
+  font-family: 'Roboto',sans-serif;
+
+  }
+
+.name  {
+font-family: 'Roboto',sans-serif;
+margin-top: 40px;
+margin-left: 10%;
+}
+
+  .container  {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+
+  }
+
+
+  .clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+
+    }
+
+}
+
+
+
+@media (min-width:320px)    {
+.main-nav li {
+background: #FFF;
+margin: 12PX;
+font-family: 'Roboto',sans-serif;
+
+  }
+
 }
