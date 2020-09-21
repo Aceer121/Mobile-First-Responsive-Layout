@@ -27,6 +27,7 @@ body   {
   margin: 0 auto;
   background-color: #F8F8F8;
   line-height: 1.5;
+
 }
 
 
@@ -54,6 +55,7 @@ box-sizing: border-box;
 .profile  {
 float: right;
 max-width: 40%;
+
 }
 
 
@@ -90,7 +92,7 @@ color: black;
 .container {
   padding-left: 20px;
   padding-right: 20px;
-
+padding top: 20px;
 }
 
 
@@ -149,17 +151,23 @@ border-top: 1px solid grey;
 
   .intro, .nav,
   .main-nav li {
-  display:inline-block;
+
   padding: 10px 25px;
   font-family: 'Roboto',sans-serif;
-
   }
+.main-nav li{
+display:block;
+position:  relative;
+right:50px;
+}
+
 
 .name  {
 font-family: 'Roboto',sans-serif;
 margin-top: 40px;
 margin-left: 10%;
 }
+
 
   .container  {
   width: 90%;
@@ -185,8 +193,32 @@ margin-left: 10%;
 .main-nav li {
 background: #FFF;
 margin: 12PX;
+list-style: none;
 font-family: 'Roboto',sans-serif;
-
+position: relative;
+top:80px;
+right:530px;
   }
+
+.name  {
+position: relative;
+left: 400px;
+}
+
+
+.container  {
+padding-top: 20px;
+}
+
+.profile  {
+margin-top: 260px;
+position: relative;
+right: 200px;
+}
+.bio  {
+margin-top: 550px;
+position: relative;
+left: 300px;
+}
 
 }
