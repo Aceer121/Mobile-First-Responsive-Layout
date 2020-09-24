@@ -1,4 +1,6 @@
-
+.img  {
+max-width: 30%;
+}
 
 .images  {
 display: inline;
@@ -97,7 +99,9 @@ padding top: 20px;
 
 
 
+.body  {
 
+}
 
 
 
