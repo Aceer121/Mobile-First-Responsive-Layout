@@ -9,13 +9,15 @@ margin:8px 0;
 list-style: none;
 font-family: 'Roboto',sans-serif;
 padding: 0;
+width:100%;
   }
 
 
 .main-nav li a {
 display: block;
 padding: 10px 15px;
-
+width:100%;
+min-width: 100%;
 }
 
 
@@ -31,13 +33,13 @@ margin: 0;
 
 
 .profile  {
-margin-left: 50px;
+
 max-width: 250px;
 }
 
 .bio {
   max-width: 100%;
-  margin-left: 50px;
+
 }
 
 body {
@@ -45,6 +47,7 @@ body {
   margin: 0;
   background-color: #F8F8F8;
   line-height: 1.5;
+  max-width: 100%;
 }
 
 .images {
@@ -89,10 +92,10 @@ h1 {
 font-size: 30px;
 color: #000000;
 text-decoration: none;
+font-family: 'Roboto',sans-serif;
 }
 
 #main-footer  {
-border-top: 1px solid grey;
 
 }
 
@@ -102,10 +105,8 @@ border-top: 1px solid grey;
 .top  {
 font-size: 1.2em;
 font-family: 'Roboto',sans-serif;
-
+padding-bottom:150px;
 }
-
-
 
 
 .student-name  {
@@ -120,17 +121,20 @@ float: right;
 
 .t-border {
 padding: 0 1em;
-
+width:100%;
+border-top: 1px solid grey;
 }
 
 
 
- .t-border ,clearfix::after {
-  content:"";
-  display: table;
-  clear: both;
+ clearfix::after {
+ content:"";
+ display: table;
+ clear: both;
+ width:100%;
+ }
 
-  }
+
 
 
 
@@ -141,6 +145,7 @@ padding: 0 1em;
 @media (min-width:768px)  {
 .main-nav {
 display: inline-block;
+width: 100%;
 }
 
 }
@@ -169,13 +174,12 @@ right:50px;
 
 .name  {
 font-family: 'Roboto',sans-serif;
-margin-top: 40px;
-margin-left: 10%;
+width:100%;
 }
 
 
   .container  {
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   background-color: white;
