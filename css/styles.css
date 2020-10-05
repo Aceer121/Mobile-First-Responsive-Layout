@@ -8,16 +8,23 @@ background: #FFF;
 margin:8px 0;
 list-style: none;
 font-family: 'Roboto',sans-serif;
-padding: 0;
+
 width:100%;
   }
+
+.main-nav  {
+display: inline;
+padding:0;
+}
 
 
 .main-nav li a {
 display: block;
-padding: 10px 15px;
-width:100%;
-min-width: 100%;
+padding: 10px 25px;
+text-decoration: none;
+font-family: 'Roboto',sans-serif;
+font-weight: bold;
+color: #000;
 }
 
 
@@ -35,6 +42,7 @@ margin: 0;
 .profile  {
 
 max-width: 250px;
+margin-top: 20px;
 }
 
 .bio {
@@ -48,6 +56,7 @@ body {
   background-color: #F8F8F8;
   line-height: 1.5;
   max-width: 100%;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .images {
@@ -117,14 +126,18 @@ float:left;
 float: right;
 }
 
+.Email  {
+text-decoration: none;
+color: #999;
 
+}
 
 .t-border {
 padding: 0 1em;
 width:100%;
-border-top: 1px solid grey;
-}
+border-bottom: 1px solid grey;
 
+}
 
 
  clearfix::after {
@@ -144,7 +157,7 @@ border-top: 1px solid grey;
 ==================================== */
 @media (min-width:768px)  {
 .main-nav {
-display: inline-block;
+display: inline;
 width: 100%;
 }
 
@@ -167,8 +180,8 @@ width: 100%;
   }
 .main-nav li{
 display:block;
-position:  relative;
-right:50px;
+
+
 }
 
 
