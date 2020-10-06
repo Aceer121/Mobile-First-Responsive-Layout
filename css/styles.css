@@ -5,11 +5,10 @@
 
 .main-nav li {
 background: #FFF;
-margin:8px 0;
+margin: 10px auto;
 list-style: none;
 font-family: 'Roboto',sans-serif;
-
-width:100%;
+width:90%;
   }
 
 .main-nav  {
@@ -56,7 +55,7 @@ body {
   background-color: #F8F8F8;
   line-height: 1.5;
   max-width: 100%;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family:'Hind Guntur', sans-serif;
 }
 
 .images {
@@ -136,7 +135,7 @@ color: #999;
 padding: 0 1em;
 width:100%;
 border-bottom: 1px solid grey;
-
+margin-left: %;
 }
 
 
