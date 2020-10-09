@@ -165,6 +165,7 @@ margin-left: %;
 .main-nav {
 display:flex;
 width: 100%;
+
 }
 *  {
 box-sizing: border-box;
@@ -173,15 +174,21 @@ box-sizing: border-box;
 }
 .main-nav li{
 background: #F8F8F8;
-
 }
+
+.bio  {
+max-width:100%;
+padding: 40px;
+}
+
 .profile {
 float:right;
 margin: 25px;
 }
 
-.container  {
+.container {
 margin-top: 150px;
+background: #FFFFFF;
 }
 
 
@@ -208,6 +215,67 @@ float: left;
 .col-6  {
 float: right;
 }
+
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6  {
+width:50%;
+padding: 8px;
+}
+
+
+#main-footer  {
+
+}
+
+
+
+.student-name,
+.home,.portfolio,.contact  {
+font-size: 1.2em;
+font-family: 'Roboto',sans-serif;
+padding-bottom:150px;
+
+}
+
+
+.student-name  {
+float:left;
+}
+
+.top  {
+float: right;
+}
+
+.Email  {
+text-decoration: none;
+color: #999;
+
+}
+
+.t-border {
+padding: 0 1em;
+width:100%;
+border-bottom: 1px solid grey;
+margin-left: %;
+}
+
+
+ clearfix::after {
+ content:"";
+ display: table;
+ clear: both;
+ width:100%;
+ }
+
+
+
+
+
 }
 
 
