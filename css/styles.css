@@ -105,14 +105,22 @@ font-family: 'Roboto',sans-serif;
 
 }
 
+.menu {
+display:none;
+}
+
+.t-border {
+padding: 0 1em;
+width:100%;
+border-top: 1px solid grey;
+}
 
 
 .student-name,
-.top  {
+.top-1  {
 font-size: 1.2em;
 font-family: 'Roboto',sans-serif;
 padding-bottom:150px;
-
 }
 
 /*Floated Columns--------------------- */
@@ -132,12 +140,7 @@ color: #999;
 
 }
 
-.t-border {
-padding: 0 1em;
-width:100%;
-border-bottom: 1px solid grey;
-margin-left: %;
-}
+
 
 
  clearfix::after {
@@ -232,6 +235,10 @@ padding: 8px;
 float:left;
 }
 
+.top-1 {
+display: none;
+}
+
 .top  {
 float: right;
 }
@@ -258,7 +265,9 @@ display: none;
 text-align: right;
 text-decoration: none;
 color:#000;
+display: block;
 margin:50px;
+padding: 150px;
 }
 
 
@@ -268,10 +277,6 @@ li {
   margin-right: 20px;
 
 }
-
-
-
-
 
 
 
