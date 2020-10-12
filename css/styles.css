@@ -262,12 +262,10 @@ display: none;
 
 .footer-nav,
 .footer-nav li a{
-text-align: right;
+float: right;
 text-decoration: none;
 color:#000;
 display: block;
-margin:50px;
-padding: 150px;
 }
 
 
