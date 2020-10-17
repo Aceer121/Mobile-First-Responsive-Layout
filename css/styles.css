@@ -142,7 +142,7 @@ color: #999;
 
 
 
- clearfix::after {
+ .clearfix::after {
  content:"";
  display: table;
  clear: both;
@@ -340,16 +340,15 @@ margin: 0px 25px;
 .portfolio-1 {
 text-align: center;
 margin-right: 110px;
-
 }
 
 
   .container  {
-  width: 100%;
-  max-width: 1300px;
+  width: 85%;
+
   margin: 0 auto;
+margin-top: 80px;
   background: white;
-  padding-left: 70px;
   text-align: center;
     }
 
