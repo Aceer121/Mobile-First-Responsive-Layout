@@ -29,7 +29,7 @@ color: #000;
 
 
 
-.name  {
+.english  {
 margin: 0;
 }
 
@@ -169,7 +169,7 @@ width: 100%;
 
 }
 
-.name {
+.english {
 float:none;
 }
 .main-nav li{
@@ -310,9 +310,9 @@ color: #000;
 
 
 
-  .name {
+  .english {
   float: left;
-  margin:25px;
+
   margin-left: 60px;
   }
 
@@ -324,13 +324,12 @@ max-width:40%;
 max-width: 50%;
 width: 25%;
 margin: 0px 25px;
-
+float: right;
 }
 
 
 
-  .main-nav{
-  display: inline-flex;
+  .main-nav {
   width: 20%;
   margin-left: 550px;
   margin-right: 40px;
@@ -374,6 +373,11 @@ content: "";
 clear:both;
 display: table;
 }
+
+.footer-nav, .menu, .portfolio, .contact {
+text-align: center;
+}
+
 
 
 
