@@ -41,7 +41,7 @@ margin: 0;
 
 .profile  {
 
-max-width: 250px;
+max-width: 80%;
 margin-top: 20px;
 }
 
@@ -65,7 +65,7 @@ body {
   font-family:'Hind Guntur', sans-serif;
 }
 
-.images {
+.image {
 max-width: 100%;
 
 }
@@ -189,6 +189,10 @@ margin: 25px;
 .container {
 margin-top: 150px;
 background: #FFFFFF;
+}
+
+.image{
+width:100%;
 }
 
 /*Floated Columns--------------------- */
@@ -352,7 +356,9 @@ margin-top: 80px;
     }
 
 
-
+.image {
+max-width:100%;
+}
 
 
 
