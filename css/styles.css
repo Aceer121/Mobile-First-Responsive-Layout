@@ -9,7 +9,6 @@ margin: 10px auto;
 list-style: none;
 font-family: 'Roboto',sans-serif;
 width:90%;
-
   }
 
 .main-nav  {
@@ -24,6 +23,7 @@ padding: 10px 25px;
 text-decoration: none;
 font-family: 'Roboto',sans-serif;
 font-weight: bold;
+margin-left: 10px;
 color: #000;
 }
 
@@ -39,7 +39,17 @@ margin: 0;
 }
 
 
-.profile  {
+.profile {
+
+max-width: 80%;
+margin-top: 20px;
+}
+
+
+
+
+
+.profile-img  {
 
 max-width: 80%;
 margin-top: 20px;
@@ -63,6 +73,7 @@ body {
   line-height: 1.5;
   max-width: 100%;
   font-family:'Hind Guntur', sans-serif;
+
 }
 
 .image {
@@ -232,12 +243,6 @@ padding: 8px;
 }
 
 
-
-
-
-
-
-
 .student-name  {
 float:left;
 }
@@ -311,12 +316,13 @@ color: #000;
 @media (min-width:1024px)    {
 
 
-
+.body  {
+padding-top: 30px;
+}
 
 
   .english {
   float: left;
-
   margin-left: 60px;
   }
 
@@ -324,33 +330,32 @@ color: #000;
 max-width:40%;
 }
 
-.profile  {
-max-width: 50%;
-width: 25%;
-margin: 0px 25px;
-float: right;
-}
+
 
 
 
   .main-nav {
   width: 20%;
-  margin-left: 550px;
+margin-top: 10px;
+  margin-left: 700px;
   margin-right: 40px;
+  display: inline-flex;
 }
 
-
-.portfolio-1 {
+.profile-1  {
+max-width: 100%;
+width: 25%;
+margin: 0px 25px;
 text-align: center;
-margin-right: 110px;
+
 }
+
 
 
   .container  {
   width: 85%;
-
   margin: 0 auto;
-margin-top: 80px;
+  margin-top: 80px;
   background: white;
   text-align: center;
     }
@@ -371,6 +376,7 @@ max-width:100%;
 float:left;
 width: 30%;
 padding: 20px 20px;
+margin-left: 30px;
 }
 
 .row-1::after,
@@ -380,7 +386,10 @@ clear:both;
 display: table;
 }
 
-.footer-nav, .menu, .portfolio, .contact {
+.footer-nav,
+.menu,
+.portfolio,
+.contact {
 text-align: center;
 }
 
