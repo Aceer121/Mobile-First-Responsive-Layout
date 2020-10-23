@@ -318,6 +318,7 @@ color: #000;
 
 .body  {
 padding-top: 30px;
+
 }
 
 
@@ -329,7 +330,6 @@ padding-top: 30px;
 .bio  {
 max-width:40%;
 }
-
 
 
 
@@ -358,6 +358,7 @@ text-align: center;
   margin-top: 80px;
   background: white;
   text-align: center;
+
     }
 
 
@@ -365,7 +366,10 @@ text-align: center;
 max-width:100%;
 }
 
-
+.row-1,
+.row-2  {
+min-height: 400px;
+}
 
 .col-1,
 .col-2,
@@ -374,9 +378,10 @@ max-width:100%;
 .col-5,
 .col-6 {
 float:left;
-width: 30%;
+width: 25%;
 padding: 20px 20px;
-margin-left: 30px;
+margin-left: 65px;
+min-height: 400px;
 }
 
 .row-1::after,
