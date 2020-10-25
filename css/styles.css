@@ -51,7 +51,7 @@ margin-top: 20px;
 
 .profile-img  {
 
-max-width: 80%;
+max-width: 50%;
 margin-top: 20px;
 }
 
@@ -122,7 +122,7 @@ display:none;
 .t-border {
 padding: 0 1em;
 width:100%;
-border-top: 1px solid grey;
+border-top: 1px solid lightgrey;
 }
 
 
@@ -240,6 +240,7 @@ float: right;
 .col-6  {
 width:50%;
 padding: 8px;
+min-height: 490px;
 }
 
 
@@ -264,7 +265,8 @@ color: #999;
 .t-border {
 padding: 0 1em;
 width:100%;
-border-bottom: 1px solid grey;
+border-top: 1px solid lightgrey;
+border-bottom: hidden;
 }
 
 
@@ -328,11 +330,18 @@ padding-top: 30px;
   }
 
 .bio  {
-max-width:40%;
+max-width:80%;
 }
 
+.nav  {
+float: right;
+display: inline-block;
 
+}
 
+.main-nav {
+margin: 0;
+}
 
   .main-nav {
   width: 20%;
@@ -342,12 +351,11 @@ margin-top: 10px;
   display: inline-flex;
 }
 
-.profile-1  {
+.profile {
 max-width: 100%;
 width: 25%;
 margin: 0px 25px;
 text-align: center;
-
 }
 
 
@@ -401,19 +409,13 @@ text-align: center;
 
 
 
-  }
-
-
-
-
-
-
-
-
-
-
-
-
+.t-border {
+padding: 0 1em;
+width:100%;
+border-top: 1px solid lightgrey;
+border-bottom: hidden;
+border-radius: 0;
+}
 
 
 
