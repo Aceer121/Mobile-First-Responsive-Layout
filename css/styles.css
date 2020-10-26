@@ -330,7 +330,7 @@ padding-top: 30px;
   }
 
 .bio  {
-max-width:80%;
+max-width:35%;
 }
 
 .nav  {
@@ -341,14 +341,11 @@ display: inline-block;
 
 .main-nav {
 margin: 0;
+margin-left: 15px;
 }
 
-  .main-nav {
-  width: 20%;
-margin-top: 10px;
-  margin-left: 700px;
-  margin-right: 140px;
-  display: inline-flex;
+.english, .main-nav li {
+margin-top: 50px;
 }
 
 .profile {
@@ -359,6 +356,13 @@ text-align: center;
 
 }
 
+h1 {
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  margin-right: 55px;
+}
 
 
   .container  {
@@ -371,7 +375,7 @@ text-align: center;
     }
 
 
-.image {
+.images {
 max-width:100%;
 }
 
@@ -402,7 +406,7 @@ display: table;
 
 .footer-nav,
 .menu,
-.portfolio,
+.h1,
 .contact {
 text-align: center;
 }
