@@ -130,7 +130,7 @@ border-top: 1px solid lightgrey;
 .top-1  {
 font-size: 1.2em;
 font-family: 'Roboto',sans-serif;
-
+text-decoration: none;
 }
 
 /*Floated Columns--------------------- */
@@ -326,7 +326,7 @@ padding-top: 30px;
 
   .english {
   float: left;
-
+  margin-left:40px;
   }
 
 
@@ -336,6 +336,11 @@ float: right;
 display: inline-block;
 
 }
+
+.bio  {
+max-width:100%;
+}
+
 
 .main-nav {
 margin: 0;
